@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 id="title"> Find your weather here</h1>
+
+            <form>
+            <div id="form-input">
+                <p class="p-input">
+                    <input type="search" id="search" placeholder="search whether here.."></p>
+                 <p>
+                    <button id="search-btn">
+                    <span class="material-symbols-outlined">
+                    search
+                    </span>
+                </button>
+                </p>
+            </div>
+            </form>
+<section id="result">
+ <div id="loader"> 
+    <div id="image">
+  <img src="./imgs/27986068-7a0040d6-63f9-11e7-8e54-dcb220e42fd7.gif" alt="" srcset="">
+    </div>
+ </div>
+<div id="user-location"></div>
+
+<center><h2>Daily weather</h2></center>
+<hr>
+<div id="daily-hourly">
+</div>
+</section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

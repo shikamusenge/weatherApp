@@ -1,0 +1,101 @@
+:root{
+    --bgimage:url("https://mcdn.wallpapersafari.com/medium/30/46/xisH9G.jpg");
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: var(--bgimage);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+padding: auto;
+margin: 4dvw;
+min-height: 100vh;
+}
+#form-input{
+    display:flex;
+    max-width: 500px;
+    border: solid 1px rgb(75, 30, 30);
+    padding: 0;
+    margin-top:0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+#form-input input{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    min-height: 100%;
+    min-width: 100%;
+    font-size: medium;
+    padding-left: 1rem;
+}
+.p-input{
+    position: relative;
+    width: calc(100% - 2rem);
+}
+p{  
+     padding: 0;
+    margin: 0;
+}
+#search-btn{
+    font-size: medium;
+    max-width: 2rem;
+    min-width: 2rem;
+    min-width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(189, 176, 176);
+}
+ #today-weather{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #daily-hourly{
+overflow: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 30vh;
+gap: 1rem;
+flex-wrap: wrap;
+ }
+ #daily-hourly .day{
+    background-color: rgba(255, 255, 255, 0.589);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+ }
+ form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #loader{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+ }
+ #loader img{
+    margin-top: 1rem;
+    min-width: 100%;
+    min-height: 100%;
+ }
+ #title{
+    text-align: center;
+ }
+ #user-location{
+    font-size: medium;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center; 
+ }
